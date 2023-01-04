@@ -1,0 +1,14 @@
+package exBasic;
+
+public class MyFirst {
+
+	public static void main(String[] args) {
+		String colleage; // 대학명
+		String department; // 학과
+		String id; // 학번
+		
+		
+		
+	}
+
+}

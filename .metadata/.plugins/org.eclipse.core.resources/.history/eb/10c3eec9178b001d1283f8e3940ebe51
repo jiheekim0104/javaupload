@@ -1,0 +1,15 @@
+package javaBasic1;
+
+public class VarEx {
+
+	public static void main(String[] args) {
+		// 첫글자가 대문자면 객체이다 ㅇㅅㅇ .  . ~안에) 
+		// () 소:함수(~하라, 실행하라, 동작하라)  
+		// {} 중 
+		// [] 대 
+		// <> 다
+		System.out.println("우와와아아아아아아앙");
+		
+	}
+
+}
