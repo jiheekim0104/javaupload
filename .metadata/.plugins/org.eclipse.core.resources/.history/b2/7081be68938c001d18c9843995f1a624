@@ -1,0 +1,38 @@
+package ch02.sec01;
+
+public class VarEx2 {
+
+	public static void main(String[] args) {
+		char aWord = 'a';
+		System.out.println(aWord + 1);
+		System.out.println(aWord - 32);
+		System.out.println((char) (aWord - 32));
+
+		char kWord = 'K';
+		System.out.println(kWord);
+		System.out.println((char) (kWord + 40));
+
+		
+		char firname = '김'; //한글자씩 처리!
+		char midname = '지';
+		char laname = '희';
+		System.out.println((int)(firname)+" "+(int)(midname)+" "+(int)(laname));
+		
+		String name = "김지희"; //여러문자열 처리!
+				
+		String hakbun = "221208";
+		int hakbun1 = 221208; // 정수로 표현하기위해 다른 변수를 추가로 사용함!
+		System.out.println("다음 사람의 학번:" + (hakbun1+1));
+		
+		
+		String hakbun2 = "221208"; 
+		int num = Integer.parseInt(hakbun2); // string을 int로 바꿔줌!
+		System.out.println(num);
+	
+		
+		System.out.println(Integer.valueOf(hakbun2));
+		
+		
+	}
+
+}

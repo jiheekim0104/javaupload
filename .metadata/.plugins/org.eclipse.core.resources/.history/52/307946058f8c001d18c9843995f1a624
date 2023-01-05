@@ -1,0 +1,20 @@
+package ch02.sec01;
+
+public class VarEx2 {
+
+	public static void main(String[] args) {
+		char aWord = 'a';
+		System.out.println(aWord + 1);
+		System.out.println(aWord - 32);
+		System.out.println((char)(aWord - 32));
+		
+		char KWord = 'K';
+		System.out.println(KWord);
+		System.out.println((char)(KWord+40));
+		
+		char name = 'J';
+				System.out.println(name+0);
+		
+	}
+
+}
