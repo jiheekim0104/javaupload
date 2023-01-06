@@ -1,0 +1,23 @@
+package javaBasic1;
+
+public class OperandEx01 {
+
+	public static void main(String[] args) {
+		// ¿¬»êÀÚ
+		int a = 10;
+		System.out.println(a + 1);
+		
+		System.out.println(--a);
+		
+		int b = 11;
+		System.out.println("b:"+b);
+
+		int d = 20;
+		System.out.println(d++);
+		System.out.println(++d);
+		
+		int e = 0;
+		System.out.println(e++ + ++e);
+	}
+
+}

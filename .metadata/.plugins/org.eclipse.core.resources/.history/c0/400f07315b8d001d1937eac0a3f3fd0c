@@ -1,0 +1,19 @@
+package javaBasic1;
+
+import java.util.Scanner;
+
+public class VarEx6 {
+
+	public static void main(String[] args) {
+		/* 이름 , 년도 입력 받으면 나이를 출력하는 프로그램 작성*/
+		Scanner sc = new Scanner(System.in);
+		System.out.println("이름:" );
+		
+		System.out.println("출생년도:" );
+		int year = sc.nextInt();
+		
+		int age = 2023 - year;
+		System.out.println("나이:");
+	}
+
+}

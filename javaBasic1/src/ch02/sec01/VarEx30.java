@@ -17,13 +17,11 @@ public class VarEx30 {
 		System.out.print("키:");
 		String key  =sc.next();
 		
-		/* System.out.print("성별:");
+		System.out.print("성별:");
 		String data = sc.next();
-		if(data == "남자") {System.out.println("true");}
-		else {System.out.println("false");} */
-		
-		 System.out.print("성별:");
-		 boolean gender = sc.nextBoolean();
+		if(data .equals("남자")) {System.out.println("true");}
+		else if(data .equals("여자")) {System.out.println("false");};
+
 
 	
 		double mom1 = Double.parseDouble(mom);
@@ -40,6 +38,7 @@ public class VarEx30 {
 		else {System.out.println("비만입니다.");}
 			
 		System.out.println("-------------------------");
+		
 		
 		
 	}

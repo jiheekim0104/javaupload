@@ -1,0 +1,38 @@
+package javaBasic1;
+
+import java.util.Scanner;
+
+public class VarEx6 {
+
+	public static void main(String[] args) {
+		/* 이름 , 년도 입력 받으면 나이를 출력하는 프로그램 작성*/
+		System.out.println("---------------" );
+		System.out.println("나이 계산 프로그램" );
+		System.out.println("---------------" );
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("이름:" );
+		String name = sc.next();
+		
+		System.out.println("출생년도:" );
+		int year = sc.nextInt();
+		
+		int age = 2023 - year;
+		System.out.println("나이:"+age);
+		
+		if (0<= age && age<=7) {System.out.println("유아입니다.");System.out.println("유아인 경우는 지원금 100만원을 받으세요.");}
+		else if (8<= age && age<=13) {System.out.println("어린이입니다.");}
+		else if (14<= age && age<=19) {System.out.println("청소년입니다.");}
+		else if (20<= age && age<=60) {System.out.println("어른입니다.");}
+		else if (age>=61) {System.out.println("노인입니다.");}
+		
+		if (0<= age && age<=7) {System.out.println("유아인 경우는 지원금 100만원을 받으세요.");}
+		else if (8<= age && age<=13) {System.out.println("어린이인 경우 지원금 50만원을 받으세요.");}
+		else if (14<= age && age<=19) {System.out.println("청소년인경우 지원금 20만원을 받으세요.");}
+		else if (20<= age && age<=60) {System.out.println("어른인 경우 지원금 20만원을 내세요.");}
+		else if (age>=61) {System.out.println("노인인경우 지원금 30만원을 받으세요.");}
+		
+		
+	}
+
+}
