@@ -52,6 +52,12 @@ public class OperandEx01 {
         int e5 = 3;
         System.out.println((e3>e4)?{(e3>e5)?:e3:e5}:e4); */
         
+        System.out.println("--------ÁÖ¸»¼÷Á¦!---------");		
+        int e3 = 5, e4 = 10, e5 = 15;
+        System.out.println((e3>e4)?((e3>e4)?e3:e4):((e4>e5)?e4:e5));
+        
+        
+        
         
 	}
 
