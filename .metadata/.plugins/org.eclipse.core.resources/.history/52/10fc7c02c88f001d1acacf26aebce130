@@ -1,0 +1,25 @@
+package javaBasic1;
+
+public class ForEx {
+
+	public static void main(String[] args) {
+		int n =5;
+		while (n<=10) {
+			System.out.println(n);
+			n++;
+			
+			int a =10;
+			while (a>=5) {
+				System.out.println(a+" ");
+				a++;
+				break;
+				
+			int number =1;
+			while (number<=10) {
+				System.out.println(number+" ");
+			}
+			} 
+		}
+	}
+
+}

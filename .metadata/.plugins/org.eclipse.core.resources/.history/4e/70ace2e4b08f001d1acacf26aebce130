@@ -1,0 +1,12 @@
+package javaBasic1;
+
+public class Exalone {
+
+	public static void main(int[] Array) {
+		// TODO Auto-generated method stub
+		for(int arr : Array) {
+			if(arr=n)
+		}
+	}
+
+}

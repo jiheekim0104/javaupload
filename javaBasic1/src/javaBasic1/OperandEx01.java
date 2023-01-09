@@ -1,5 +1,7 @@
 package javaBasic1;
 
+import java.util.Scanner;
+
 public class OperandEx01 {
 
 	public static void main(String[] args) {
@@ -42,22 +44,70 @@ public class OperandEx01 {
 		String d1 = "자바";
 		System.out.println((d1.equals("자바")?"A교실입니다.":"B,C교실입니다."));		
 		
-		int e1 = 5;
-		int e2 = 10;
-        System.out.println((e1<e2)?e2:e1);		
+		Scanner sc = new Scanner(System.in);
+		/*System.out.println("숫자1 입력:");
+		int e1 = sc.nextInt();
+		System.out.println("숫자2 입력:");
+		int e2 = sc.nextInt();
+        System.out.println((e1>e2)?e1:e2);	*/	
         
-        /* 3개 비교해보기!
-        int e3 = 1;
-        int e4 = 2;
-        int e5 = 3;
-        System.out.println((e3>e4)?{(e3>e5)?:e3:e5}:e4); */
+        // 3개 비교해보기!
+       /*  System.out.println("--------주말숙제!---------");	
+        System.out.println("숫자1 입력:");
+        int e3 = sc.nextInt();
+        System.out.println("숫자2 입력:");
+        int e4 = sc.nextInt();
+        System.out.println("숫자3 입력:");
+        int e5 = sc.nextInt();	
+        System.out.println((e3>=e4)?((e3>=e4)?e3:e4):((e4>=e5)?e4:e5)); */
         
-        System.out.println("--------주말숙제!---------");		
-        int e3 = 5, e4 = 10, e5 = 15;
-        System.out.println((e3>e4)?((e3>e4)?e3:e4):((e4>e5)?e4:e5));
+        /* 
+          int maxNumber = (e3>=e4)?e3:e4;
+          maxNumber = (maxnNumber>=e5)?maxnumber:e5; */
+        
+        // 숫자 3개를 입력받고 중간 숫자를 출력하기
+        /* System.out.println("숫자1 입력:");
+        int e6 = sc.nextInt();
+        System.out.println("숫자2 입력:");
+        int e7 = sc.nextInt();
+        System.out.println("숫자3 입력:");
+        int e8 = sc.nextInt();	
+        System.out.println((e6>=e7)?((e6>=e8)?((e7>=e8)?e7:e8):e6):((e6>=e8)?e6:((e7>=e8)?e8:e7))); */
+        
+		/*
+		System.out.print("첫번째 숫자를 입력하세요 : ");
+		int number1 = sc.nextInt();
+		System.out.print("두번째 숫자를 입력하세요 : ");
+		int number2 = sc.nextInt();
+		System.out.print("세번째 숫자를 입력하세요 : ");
+		int number3 = sc.nextInt();
+
+		int result1 = (number1 <= number2) ? number1 : number2;
+		int min = (result1 <= number3) ? result1 : number3;
+		
+		int result2 = (number1 >= number2) ? number1 : number2;
+		int max = (result2 >= number3) ? result2 : number3;
+		int mid = (number1 != min && number1 != max) ? number1 : ((number2 != min && number2 != max) ? number2 : number3);
+		
+		System.out.println(mid);
+
+		 */
+        
+        Scanner Scr = new Scanner(System.in);
+		System.out.print("첫번째 숫자를 입력==>");
+		int number6=Scr.nextInt();
+		System.out.print("두번째 숫자를 입력==>");
+		int number7=Scr.nextInt();
+		System.out.print("세번째 숫자를 입력==>");
+		int number8=Scr.nextInt();
+		
+		int middleNumber = (number6>=number7)? number6:number7;
+		middleNumber = (number8>=middleNumber)? ((number7>number8)?number8:number7):number7;
+		System.out.println(middleNumber);
+
         
         
-        
+
         
 	}
 
