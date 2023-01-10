@@ -7,18 +7,7 @@ public class VarEx {
 		System.out.println("여러글자");
 		System.out.println("옹");
 		
-		int a;
-		a = 10;
-		
-		String hakbun;
-		String name;
-		String dept;
-		int age;
-		boolean sex;
-		double jumsu;
-		Doctor doctor; 
-		Programmer programmer;
-		
+	
 	
 	}
 

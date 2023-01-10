@@ -106,7 +106,8 @@ public class OperandEx01 {
 		System.out.println(middleNumber);
 
         
-        
+        sc.close();
+        Scr.close();
 
         
 	}

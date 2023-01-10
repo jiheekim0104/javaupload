@@ -5,100 +5,102 @@ import java.util.Scanner;
 public class ForEx {
 
 	public static void main(String[] args) {
-		int n = 5;
-		while (n <= 10) {
-			System.out.println(n);
-			n++;
+		for (int i = 1; i <= 10; i++) {
+			System.out.print(i + " ");
 		}
 
-		System.out.println("------------------------------");
-
-		int a = 10;
-		while (a >= 5) {
-			System.out.println(a + " ");
-			a++;
-			if (a == 13)
-				break;
-		}
-
-		System.out.println("------------------------------");
-
-		int num = 1;
-		while (num <= 10) {
-			System.out.print(num + " ");
-			num++;
-		}
-		
-		System.out.println(" ");
-		System.out.println("------------------------------");
-
-		int num1 = 0;
-		while (num1 <= 100) {
-			System.out.print(num1 + " ");
-			num1 = num1 + 5;
-		}
-		
-		System.out.println(" ");
-		System.out.println("------------------------------");
-
-		int num2 = -100;
-		while (num2 <= 100) {
-			System.out.print(num2 + " ");
-			num2 = num2 + 50;
-
-		}
-
-		System.out.println(" ");
+		System.out.println();
 		System.out.println("--------------------------");
+
+		for (int i1 = 10; i1 <= 100; i1 += 10) {
+			System.out.print(i1 + " ");
+		}
+
+		System.out.println();
+		System.out.println("--------------------------");
+
+		int sum1 = 0;
+		for (int i2 = 1; i2 <= 100; i2++) {
+			sum1 = sum1 + i2;
+		}
+		System.out.println(sum1);
+
+		System.out.println();
+		System.out.println("--------------------------");
+
+		int sum2 = 0;
+		int counter = 0;
+		for (int i3 = 1; i3 <= 100; i3 += 2) {
+			sum2 = sum2 + i3;
+			counter++;
+		}
+		System.out.println(sum2 + "," + counter);
+
+		System.out.println();
+		System.out.println("--------------------------");
+
+		for (int i4 = 1; i4 <= 100; i4++) {
+			System.out.print(i4 + " ");
+			if (i4 % 10 == 0) {
+				System.out.println();
+			}
+		}
 		
-		
-		 /*char text = 'A'; 
-		 while ( text <= 'Z') { 
-		 System.out.print(text+" "); 
-		 text++; 
-		 }
-		 */
+		/* 10개씩 세어서 줄바꿈 해주는 방법
+		int cnt =0;
+		for (int i = 1; i <= 100; i++) {
+			System.out.print(i + " ");
+			if (cnt == 10) {
+				System.out.println();
+				cnt = 0;
+			}
+		}
+		 */ 
+
+		System.out.println();
+		System.out.println("--------------------------"); 
+		System.out.println("결과화면");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("숫자를 입력하세요. (예:12345) ==>");
+		String number = sc.nextLine(); 
+		int sum = 0;
+		while (number.length() > 0) {
+			sum += Integer.parseInt(number.substring(number.length() - 1));
+			System.out.println("sum = " + sum + " number = " + number);
+			number = number.substring(0, number.length() - 1);
+		}
+		System.out.println("각 자리수의 합:"+sum);
 		
 		/*
-		 char f = 'A'; 
-		 while ( f <= 90){
-		 	System.out.print(Character.toChars(f));
-		 	f++;
-		 }
-		 */
-
-		
-		int textnumber = 65;
-		while (textnumber <= 90) {
-			char text = (char)textnumber;
-			System.out.print(text);
-			textnumber = textnumber + 1;
-		}
-		
-		 
-		System.out.println(" ");
-		System.out.println("--------------------------");
-
+		System.out.println("결과화면");
 		Scanner sc = new Scanner(System.in);
-		int num3 = 1;
-		while (num3 <= 3) {
-			System.out.println("학생 이름" + num3 + ":");
-			String name = sc.next();
-			num3 = num3 + 1;
-		}
-		System.out.println("종료되었습니다.");
-
+		System.out.print("숫자를 입력하세요. (예:12345) ==>");
+		int number = sc.nextInt();
+		int number1 = 0;
+		int temp = 0;
+		int s = 0;
+		while(number>=1){
+			number1 = number / 10;
+			temp = number1*10;
+			s = s+ (number-temp);
+			System.out.println("sum ="+ s+" "+"number ="+number)
+			number=number1;
+		 */
+		
+		System.out.println();
 		System.out.println("--------------------------");
-		
-		for (int i=1;i<=5;i++) {
-			for (int j=1;j<=i;j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		} 
-		
 
-		
-		
+		System.out.println("숫자를 입력:");
+		int number1 = 0;
+		int sum3 = 0;
+		do {
+			number1 = sc.nextInt();
+			sum3 = sum3 + number1;
+		} while (number1 != 0);
+			System.out.println(sum3);
+
+		sc.close();
+
 	}
+
 }

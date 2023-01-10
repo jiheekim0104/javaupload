@@ -105,6 +105,7 @@ public class VarEx6 {
 			System.out.println("귀하는" + ageType + "입니다." + "지원금" + subsidy + "를 받으세요.");
 
 		}
+		sc.close();
 
 	}
 }
