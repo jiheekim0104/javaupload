@@ -13,7 +13,9 @@ public class VarEx6 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("이름:");
 		String name = sc.next();
-
+		System.out.println(name);
+		
+		
 		System.out.println("출생년도:");
 		int year = sc.nextInt();
 

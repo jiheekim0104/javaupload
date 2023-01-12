@@ -92,9 +92,9 @@ public class Continue1 {
 		int moneyin =0;
 		int moneyout =0;
 		int money = 0;
-		program: while(true) {
+		program : while(true) {
 		System.out.println("-------------------------");
-		System.out.println("1.예금 | 2. 출금 | 3.잔고 | 4.종료");
+		System.out.println("1.예금 | 2. 출금 | 3.잔고 | 4.이체 | 5. 종료");
 		System.out.println("-------------------------");
 		System.out.print("메뉴선택:");
 		input = sc.next();
@@ -112,22 +112,41 @@ public class Continue1 {
 				input = sc.next();
 				moneyout=Integer.parseInt(input);
 				money = money - moneyout;	
+				if(money<0) {
+					System.out.println("잔액부족");
+				}
 				break;
 				
 			case 3 : 
 				System.out.println("잔고:"+money);
 				break;
 				
-			case 4 : break program;
-				
-			default :System.out.print("잘못입력하셨습니다.");
-			}
-		}
+			case 4 : 
+				System.out.print("이체할 계좌번호 입력:");
+				input = sc.next();
+				String bunho = input;
+				System.out.print("이체할 금액 입력:");
+				input = sc.next();
+				moneyout=Integer.parseInt(input);
+				money = money - moneyout;
+				if(money<0) {
+					System.out.println("잔액부족"); // 금액을 다시 입력하게 하고싶다..! 
+					break;
+				}
+				System.out.println(bunho+"계좌로 "+moneyout+"원이 이체되었습니다.");
+				System.out.println("잔액은 "+money+"원 입니다.");
+				break;
+			case 5 :
+				break program;
+			default :System.out.println("잘못입력하셨습니다.");
+			} 
+		} 
 		System.out.print("프로그램이 종료되었습니다.");
 		
 		
 		
 		
+		sc.close();
 		
 	}
 
