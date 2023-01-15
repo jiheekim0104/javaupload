@@ -59,7 +59,7 @@ public class OperandEx01 {
         int e4 = sc.nextInt();
         System.out.println("숫자3 입력:");
         int e5 = sc.nextInt();	
-        System.out.println((e3>=e4)?((e3>=e4)?e3:e4):((e4>=e5)?e4:e5)); */
+        System.out.println((e3>=e4)?((e3>=e5)?e3:e5):((e4>=e5)?e4:e5)); */
         
         /* 
           int maxNumber = (e3>=e4)?e3:e4;

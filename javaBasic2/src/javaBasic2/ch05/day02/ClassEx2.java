@@ -29,7 +29,7 @@ public class ClassEx2 {
 		
 		// 잘 팔린메뉴와 적게 팔린 메뉴 출력하는 방법 1
 		String maxName = null;
-		int maxpercent = (percent>=percent1)?((percent>=percent1)?percent:percent1):((percent1>=percent2)?percent1:percent2);
+		int maxpercent = (percent>=percent1)?((percent>=percent2)?percent:percent2):((percent1>=percent2)?percent1:percent2);
 		if (maxpercent==percent) {
 			maxName =p.kind; 
 		} else if (maxpercent==percent1) {
@@ -39,7 +39,7 @@ public class ClassEx2 {
 		}
 		
 		String minName = null;
-		int minpercent = (percent<=percent1)?((percent<=percent1)?percent:percent1):((percent1<=percent2)?percent1:percent2);
+		int minpercent = (percent<=percent1)?((percent<=percent2)?percent:percent2):((percent1<=percent2)?percent1:percent2);
 		if (minpercent==percent) {
 			minName =p.kind; 
 		} else if (minpercent==percent1) { 
