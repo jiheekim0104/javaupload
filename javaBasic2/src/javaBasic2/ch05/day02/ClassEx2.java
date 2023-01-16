@@ -15,13 +15,13 @@ public class ClassEx2 {
 		
 		int last = p.lastMethod(p.make, p.sale);
 		System.out.println("Á¾·ù  ¸¸µç°¹¼ö  ÆÇ¸Å°¹¼ö  ³²Àº°¹¼ö");
-		System.out.println( p.kind + "  " + p.make + " " + p.sale + " " + last);
+		System.out.println( p.kind + "     " + p.make + "    " + p.sale + "   " + last);
 		
 		last = p1.lastMethod(p1.make, p1.sale);
-		System.out.println(p1.kind + "  " + p1.make + " " + p1.sale + " " + last);
+		System.out.println(p1.kind + "     " + p1.make + "    " + p1.sale + "   " + last);
 		
 		last = p2.lastMethod(p.make, p.sale);
-		System.out.println( p2.kind + "  " + p2.make + " " + p2.sale + " " + last);
+		System.out.println( p2.kind + "     " + p2.make + "    " + p2.sale + "   " + last);
 		
 		int percent = p.salepercent(p.make, p.sale);
 		int percent1 = p1.salepercent(p1.make, p1.sale);
@@ -111,7 +111,7 @@ class Banchan {
 		return make-sale;
 	}
 	int salepercent (int make, int sale) {
-		return (int)sale*100/make;
+		return sale*100/make;
 	}
 	
 
