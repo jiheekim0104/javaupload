@@ -17,10 +17,13 @@ public class Ex03 {
 
 
 class Computer{
+	//필드 클래스멤버**
 	String computerName;
 	int price;
 	String manufactuer;
 	
+	
+	//메서드 동작**
 	// setter메서드와 getter메서드를 자동으로 생성해준다고!!!? Source > generate g & s 
 	public String getComputerName() {
 		return computerName;
