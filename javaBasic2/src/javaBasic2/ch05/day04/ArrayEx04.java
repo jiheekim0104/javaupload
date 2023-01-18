@@ -1,9 +1,31 @@
 package javaBasic2.ch05.day04;
 
+import java.util.Scanner;
+
 public class ArrayEx04 {
 
 	public static void main(String[] args) {
 		BuyMovie[] movieArr = {new BuyMovie(),new BuyMovie(),new BuyMovie()};
+		
+			for(int i=0;i<movieArr.length;i++) {
+				Scanner sc = new Scanner(System.in);
+				System.out.print((i+1)+"번째 레코드(줄):");
+				System.out.print("영화명");
+				String moviename =sc.nextLine(); //여기서 사용한 변수는 아래 이너클래스 변수랑 상관없어!
+				System.out.print("영화가격");
+				int movieprice =sc.nextInt();
+				sc.nextLine();
+				System.out.print("나이");
+				int age =sc.nextInt();
+				sc.nextLine();
+				System.out.print("구매방법");
+				String type =sc.nextLine();
+				movieArr[i].setName(moviename);
+				movieArr[i].setPrice(movieprice);
+				movieArr[i].setAge(age);
+				movieArr[i].setBuyMethod(type);
+		}
+		/*
 		movieArr[0].setName("1917");
 		movieArr[0].setPrice(11000);
 		movieArr[0].setAge(10);
@@ -19,7 +41,7 @@ public class ArrayEx04 {
 		movieArr[2].setAge(40);
 		movieArr[2].setBuyMethod("쿠폰");
 		
-		
+		*/
 		System.out.println("영화명   금액   나이   실구매금액");
 		for(int i=0; i<movieArr.length;i++) {
 			movieArr[i].getBuyMethod(); // 구매 방법에 따라서 할인 퍼센트가 정해지니까, 할인 퍼센트 호출전에 구매 방법을 먼저 호출함!
