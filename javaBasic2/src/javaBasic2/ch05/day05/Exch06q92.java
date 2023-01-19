@@ -2,7 +2,7 @@ package javaBasic2.ch05.day05;
 
 import java.util.Scanner;
 
-public class Exch06num99 {
+public class Exch06q92 {
 
 	public static void main(String[] args) {
 		ScoreManagement sm = new ScoreManagement();

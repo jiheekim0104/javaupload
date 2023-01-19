@@ -2,7 +2,7 @@ package javaBasic2.ch05.day05;
 
 import java.util.Scanner;
 
-public class Exch06num9 {
+public class Exch06q91 {
 	
 	static Scanner sc = new Scanner(System.in);
 	static String input;

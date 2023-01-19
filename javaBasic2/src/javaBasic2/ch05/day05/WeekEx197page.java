@@ -9,6 +9,11 @@ public class WeekEx197page {
 		Week today = null;
 		
 		Calendar cal = Calendar.getInstance();
+		int day = cal.get(Calendar.DATE);
+		
+		
+		
+		System.out.println( day);
 		
 		int week = cal.get(Calendar.DAY_OF_WEEK);
 		
