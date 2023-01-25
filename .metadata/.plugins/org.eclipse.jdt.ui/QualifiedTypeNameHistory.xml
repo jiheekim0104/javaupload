@@ -7,11 +7,22 @@
     <fullyQualifiedTypeName name="javaBasic2.ch05.day04.BuyMovie"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day04.Movie"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day05.Week"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day05.LoginResult"/>
+    <fullyQualifiedTypeName name="javaBasic3.ch06.day01.Car"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.day01.Car"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.virtual.phases.ea.PEReadEliminationBlockState"/>
+    <fullyQualifiedTypeName name="javaBasic4.day01.Person"/>
+    <fullyQualifiedTypeName name="javaBasic4.day01.Student"/>
+    <fullyQualifiedTypeName name="javaBasic4.day01.Student01"/>
+    <fullyQualifiedTypeName name="javaBasic4.day01.Student1"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="b.B"/>
+    <fullyQualifiedTypeName name="a.aa.AA"/>
+    <fullyQualifiedTypeName name="b.ba.BA"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="singleton.Single"/>
 </qualifiedTypeNameHistroy>
