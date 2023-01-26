@@ -6,13 +6,10 @@
     <fullyQualifiedTypeName name="javaBasic2.ch05.day04.Hospital"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day04.BuyMovie"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day04.Movie"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day05.Week"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day05.LoginResult"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.day01.Car"/>
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.virtual.phases.ea.PEReadEliminationBlockState"/>
     <fullyQualifiedTypeName name="javaBasic4.day01.Person"/>
@@ -25,4 +22,14 @@
     <fullyQualifiedTypeName name="b.ba.BA"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="singleton.Single"/>
+    <fullyQualifiedTypeName name="javaBasic5.day01.Ex01"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="dao.BookDao"/>
+    <fullyQualifiedTypeName name="javaBasic5.ex13.MemberService"/>
+    <fullyQualifiedTypeName name="javaBasic5.ex13.Printer"/>
+    <fullyQualifiedTypeName name="javaBasic5.ex13.ShopService"/>
+    <fullyQualifiedTypeName name="javaBasic5.Account"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
 </qualifiedTypeNameHistroy>
