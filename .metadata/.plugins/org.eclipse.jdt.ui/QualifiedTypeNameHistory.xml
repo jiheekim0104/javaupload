@@ -32,4 +32,16 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
+    <fullyQualifiedTypeName name="javaMid2.Dog"/>
+    <fullyQualifiedTypeName name="javaMid2.Animal"/>
+    <fullyQualifiedTypeName name="javaMid2.p302.AB"/>
+    <fullyQualifiedTypeName name="javaMid2.p302.C"/>
+    <fullyQualifiedTypeName name="javaMid2.p301.A"/>
+    <fullyQualifiedTypeName name="javaMid2.ExPerson.Researcher"/>
+    <fullyQualifiedTypeName name="javaMid2.ExPerson.Student"/>
+    <fullyQualifiedTypeName name="javaMid2.ExPerson.StudentWorker"/>
+    <fullyQualifiedTypeName name="javaMid2.ExPerson.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javaMid2.ExPerson.Professor"/>
+    <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
 </qualifiedTypeNameHistroy>
