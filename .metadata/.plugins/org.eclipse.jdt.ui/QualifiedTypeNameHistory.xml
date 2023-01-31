@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="javaBasic2.ch05.day03.Student"/>
-    <fullyQualifiedTypeName name="javaBasic2.ch05.day04.Banchan"/>
-    <fullyQualifiedTypeName name="javaBasic2.ch05.day04.Hospital"/>
-    <fullyQualifiedTypeName name="javaBasic2.ch05.day04.BuyMovie"/>
-    <fullyQualifiedTypeName name="javaBasic2.ch05.day04.Movie"/>
-    <fullyQualifiedTypeName name="javaBasic2.ch05.day05.Week"/>
     <fullyQualifiedTypeName name="javaBasic2.ch05.day05.LoginResult"/>
     <fullyQualifiedTypeName name="javaBasic3.ch06.day01.Car"/>
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.virtual.phases.ea.PEReadEliminationBlockState"/>
     <fullyQualifiedTypeName name="javaBasic4.day01.Person"/>
     <fullyQualifiedTypeName name="javaBasic4.day01.Student"/>
@@ -23,14 +15,11 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="singleton.Single"/>
     <fullyQualifiedTypeName name="javaBasic5.day01.Ex01"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="dao.BookDao"/>
     <fullyQualifiedTypeName name="javaBasic5.ex13.MemberService"/>
     <fullyQualifiedTypeName name="javaBasic5.ex13.Printer"/>
     <fullyQualifiedTypeName name="javaBasic5.ex13.ShopService"/>
     <fullyQualifiedTypeName name="javaBasic5.Account"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
     <fullyQualifiedTypeName name="javaMid2.Dog"/>
     <fullyQualifiedTypeName name="javaMid2.Animal"/>
@@ -41,7 +30,34 @@
     <fullyQualifiedTypeName name="javaMid2.ExPerson.Student"/>
     <fullyQualifiedTypeName name="javaMid2.ExPerson.StudentWorker"/>
     <fullyQualifiedTypeName name="javaMid2.ExPerson.Person"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="javaMid2.ExPerson.Professor"/>
     <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+    <fullyQualifiedTypeName name="javaMid3.p314.Car"/>
+    <fullyQualifiedTypeName name="javaMid3.p314.Tire"/>
+    <fullyQualifiedTypeName name="javaMid3.p314.HankookTire"/>
+    <fullyQualifiedTypeName name="javaMid3.p314.KumhoTire"/>
+    <fullyQualifiedTypeName name="javaMid3.p318.Driver"/>
+    <fullyQualifiedTypeName name="javaMid3.p318.Bus"/>
+    <fullyQualifiedTypeName name="javaMid3.p318.Taxi"/>
+    <fullyQualifiedTypeName name="javaMid3.p318.Vehicle"/>
+    <fullyQualifiedTypeName name="javaMid3.p297.Person"/>
+    <fullyQualifiedTypeName name="javaMid3.p321.Student"/>
+    <fullyQualifiedTypeName name="javaMid3.b1328.TV"/>
+    <fullyQualifiedTypeName name="javaMid3.b1328.CaptionTv"/>
+    <fullyQualifiedTypeName name="javaMid3.b1328Ex2.Buyer"/>
+    <fullyQualifiedTypeName name="javaMid3.b1328Ex2.Product"/>
+    <fullyQualifiedTypeName name="javaMid3.b1328Ex2.Phone"/>
+    <fullyQualifiedTypeName name="javaMid3.b1328Ex2.Ipad"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331.Company"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331.Seoul"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331.Kangwon"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331.Jeju"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331.Koungin"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331Ex2.Grade"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331Ex2.Elementary"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
