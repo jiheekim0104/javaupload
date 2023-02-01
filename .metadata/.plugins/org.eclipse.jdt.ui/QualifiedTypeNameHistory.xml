@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javaBasic2.ch05.day05.LoginResult"/>
-    <fullyQualifiedTypeName name="javaBasic3.ch06.day01.Car"/>
-    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
-    <fullyQualifiedTypeName name="org.graalvm.compiler.virtual.phases.ea.PEReadEliminationBlockState"/>
-    <fullyQualifiedTypeName name="javaBasic4.day01.Person"/>
-    <fullyQualifiedTypeName name="javaBasic4.day01.Student"/>
-    <fullyQualifiedTypeName name="javaBasic4.day01.Student01"/>
-    <fullyQualifiedTypeName name="javaBasic4.day01.Student1"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="b.B"/>
-    <fullyQualifiedTypeName name="a.aa.AA"/>
-    <fullyQualifiedTypeName name="b.ba.BA"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="singleton.Single"/>
-    <fullyQualifiedTypeName name="javaBasic5.day01.Ex01"/>
-    <fullyQualifiedTypeName name="dao.BookDao"/>
-    <fullyQualifiedTypeName name="javaBasic5.ex13.MemberService"/>
     <fullyQualifiedTypeName name="javaBasic5.ex13.Printer"/>
     <fullyQualifiedTypeName name="javaBasic5.ex13.ShopService"/>
     <fullyQualifiedTypeName name="javaBasic5.Account"/>
@@ -54,10 +37,27 @@
     <fullyQualifiedTypeName name="javaMid3.b1331.Jeju"/>
     <fullyQualifiedTypeName name="javaMid3.b1331.Koungin"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javaMid3.b1331Ex2.Grade"/>
     <fullyQualifiedTypeName name="javaMid3.b1331Ex2.Elementary"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p1tea.SaleMain"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p1tea.SaleBusiness"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Kangwon"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Jeju"/>
+    <fullyQualifiedTypeName name="java.lang.InternalError"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Kyoin"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.Sjavac"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Jisa"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Seoul"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javaMid4.Aimpl"/>
+    <fullyQualifiedTypeName name="javaMid4.Bimpl"/>
+    <fullyQualifiedTypeName name="javaMid4.DDimpl"/>
+    <fullyQualifiedTypeName name="javaMid4.a01.InConfig"/>
+    <fullyQualifiedTypeName name="javaMid4.p368.B"/>
+    <fullyQualifiedTypeName name="javaMid4.p368.C"/>
+    <fullyQualifiedTypeName name="javaMid4.p368.D"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javaMid3.b1331p2.Element"/>
 </qualifiedTypeNameHistroy>
