@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javaBasic5.ex13.Printer"/>
-    <fullyQualifiedTypeName name="javaBasic5.ex13.ShopService"/>
-    <fullyQualifiedTypeName name="javaBasic5.Account"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
-    <fullyQualifiedTypeName name="javaMid2.Dog"/>
-    <fullyQualifiedTypeName name="javaMid2.Animal"/>
-    <fullyQualifiedTypeName name="javaMid2.p302.AB"/>
-    <fullyQualifiedTypeName name="javaMid2.p302.C"/>
-    <fullyQualifiedTypeName name="javaMid2.p301.A"/>
-    <fullyQualifiedTypeName name="javaMid2.ExPerson.Researcher"/>
-    <fullyQualifiedTypeName name="javaMid2.ExPerson.Student"/>
-    <fullyQualifiedTypeName name="javaMid2.ExPerson.StudentWorker"/>
-    <fullyQualifiedTypeName name="javaMid2.ExPerson.Person"/>
-    <fullyQualifiedTypeName name="javaMid2.ExPerson.Professor"/>
-    <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
     <fullyQualifiedTypeName name="javaMid3.p314.Car"/>
     <fullyQualifiedTypeName name="javaMid3.p314.Tire"/>
     <fullyQualifiedTypeName name="javaMid3.p314.HankookTire"/>
@@ -36,12 +21,9 @@
     <fullyQualifiedTypeName name="javaMid3.b1331.Kangwon"/>
     <fullyQualifiedTypeName name="javaMid3.b1331.Jeju"/>
     <fullyQualifiedTypeName name="javaMid3.b1331.Koungin"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javaMid3.b1331Ex2.Grade"/>
     <fullyQualifiedTypeName name="javaMid3.b1331Ex2.Elementary"/>
     <fullyQualifiedTypeName name="javaMid3.b1331p1tea.SaleMain"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javaMid3.b1331p1tea.SaleBusiness"/>
     <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Kangwon"/>
     <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Jeju"/>
@@ -50,7 +32,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.Sjavac"/>
     <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Jisa"/>
     <fullyQualifiedTypeName name="javaMid3.b1331p1tea.Seoul"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javaMid4.Aimpl"/>
     <fullyQualifiedTypeName name="javaMid4.Bimpl"/>
     <fullyQualifiedTypeName name="javaMid4.DDimpl"/>
@@ -58,6 +39,25 @@
     <fullyQualifiedTypeName name="javaMid4.p368.B"/>
     <fullyQualifiedTypeName name="javaMid4.p368.C"/>
     <fullyQualifiedTypeName name="javaMid4.p368.D"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="javaMid3.b1331p2.Element"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javaMid5.Parent"/>
+    <fullyQualifiedTypeName name="javaMid5.Child"/>
+    <fullyQualifiedTypeName name="javaMid5.p7.Parent"/>
+    <fullyQualifiedTypeName name="javaMid5.p7.Child"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.aarch64.AArch64ArithmeticOp.ExtendedAddSubShiftOp"/>
+    <fullyQualifiedTypeName name="javaMid5.p8.Snowtire"/>
+    <fullyQualifiedTypeName name="javaMid5.p8.Tire"/>
+    <fullyQualifiedTypeName name="javaMid5.p11.Activity"/>
+    <fullyQualifiedTypeName name="javaMid5.p11.MainActivity"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javaMid5.scoreManage.SungJuk"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javaMid5.scoreManage.ElementaryStudent"/>
+    <fullyQualifiedTypeName name="javaMid5.scoreManage.HighStudent"/>
+    <fullyQualifiedTypeName name="javaMid5.scoreManage.MIddleStudent"/>
+    <fullyQualifiedTypeName name="javaMid5.scoreManage.Business"/>
 </qualifiedTypeNameHistroy>
