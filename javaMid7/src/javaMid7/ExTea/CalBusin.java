@@ -10,7 +10,7 @@ public class CalBusin {
 		System.out.print("가로: ");
 		calc.setWidth(Integer.parseInt(sc.nextLine()));
 		System.out.print("세로: ");
-		calc.setWidth(Integer.parseInt(sc.nextLine()));
+		calc.setHeight(Integer.parseInt(sc.nextLine()));
 	}
 	
 	void print() {
