@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javaMid3.b1331p2.Element"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="javaMid5.Parent"/>
-    <fullyQualifiedTypeName name="javaMid5.Child"/>
-    <fullyQualifiedTypeName name="javaMid5.p7.Parent"/>
-    <fullyQualifiedTypeName name="javaMid5.p7.Child"/>
-    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.aarch64.AArch64ArithmeticOp.ExtendedAddSubShiftOp"/>
-    <fullyQualifiedTypeName name="javaMid5.p8.Snowtire"/>
-    <fullyQualifiedTypeName name="javaMid5.p8.Tire"/>
-    <fullyQualifiedTypeName name="javaMid5.p11.Activity"/>
-    <fullyQualifiedTypeName name="javaMid5.p11.MainActivity"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
-    <fullyQualifiedTypeName name="javaMid5.scoreManage.SungJuk"/>
-    <fullyQualifiedTypeName name="javaMid5.scoreManage.ElementaryStudent"/>
     <fullyQualifiedTypeName name="javaMid5.scoreManage.HighStudent"/>
     <fullyQualifiedTypeName name="javaMid5.scoreManage.MIddleStudent"/>
     <fullyQualifiedTypeName name="javaMid5.scoreManage.Business"/>
@@ -37,9 +23,6 @@
     <fullyQualifiedTypeName name="javaMid7.p413.Car"/>
     <fullyQualifiedTypeName name="javaMid7.EX.Calc"/>
     <fullyQualifiedTypeName name="javaMid7.EX.Square"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javaMid7.ExTea.CalBusin"/>
     <fullyQualifiedTypeName name="javaMid7.ExTea.Calc"/>
     <fullyQualifiedTypeName name="javaMid7.p417.RemoteControll"/>
@@ -56,8 +39,25 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="my_lib.pack1.A"/>
     <fullyQualifiedTypeName name="my_lib.pack2.B"/>
-    <fullyQualifiedTypeName name="pack1.A"/>
     <fullyQualifiedTypeName name="pack2.B"/>
-    <fullyQualifiedTypeName name="pack3.C"/>
+    <fullyQualifiedTypeName name="pack1.A"/>
     <fullyQualifiedTypeName name="pack4.D"/>
+    <fullyQualifiedTypeName name="pack3.C"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="javaMid10.p468.A"/>
+    <fullyQualifiedTypeName name="javaMid10.p469.B"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.InstantiationException"/>
+    <fullyQualifiedTypeName name="javaMid10.p480.Account"/>
+    <fullyQualifiedTypeName name="javaMid10.p480.InsufficientException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="javaMid10.Ex.ScoreMinException"/>
+    <fullyQualifiedTypeName name="javaMid10.Ex.Score"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
